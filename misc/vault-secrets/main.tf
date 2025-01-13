@@ -13,8 +13,8 @@ variable "secrets" {
         admin_password = "Koushik@123456"
       }
     }
-    roboshop-dev = {
-      frontend = {
+    # roboshop-dev = {
+      # frontend = {
         # catalogue_endpoint = "http://catalogue-dev.azdevopsb82.online:8080"
         # cart_endpoint      = "http://cart-dev.azdevopsb82.online:8080"
         # user_endpoint      = "http://user-dev.azdevopsb82.online:8080"
@@ -32,7 +32,7 @@ variable "secrets" {
         # PAYMENT_PORT       = "8080"
 
       }
-      catalogue = {
+      # catalogue = {
         # MONGO       = "true"
         # MONGO_URL   = "mongodb://mongodb-dev.azdevopsb82.online:27017/catalogue"
         # DB_TYPE     = "mongo"
@@ -75,6 +75,6 @@ variable "secrets" {
       #   AMQP_USER = "roboshop"
       #   AMQP_PASS = "roboshop123"
       # }
-    }
-  }
-}
+    # }
+  # }
+# }
