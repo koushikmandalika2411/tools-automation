@@ -13,58 +13,58 @@ variable "secrets" {
         admin_password = "Koushik@123456"
       }
     }
-    # roboshop-dev = {
-      # frontend = {
-        # catalogue_endpoint = "http://catalogue-dev.azdevopsb82.online:8080"
-        # cart_endpoint      = "http://cart-dev.azdevopsb82.online:8080"
-        # user_endpoint      = "http://user-dev.azdevopsb82.online:8080"
-        # payment_endpoint   = "http://payment-dev.azdevopsb82.online:8080"
-        # shipping_endpoint  = "http://shipping-dev.azdevopsb82.online:8080"
-        # CATALOGUE_HOST     = "catalogue-dev.azdevopsb82.online"
+    roboshop-dev = {
+      frontend = {
+        catalogue_endpoint = "http://catalogue-dev.azdevops.shop:8080"
+        # cart_endpoint      = "http://cart-dev.azdevops.shop:8080"
+        # user_endpoint      = "http://user-dev.azdevops.shop:8080"
+        # payment_endpoint   = "http://payment-dev.azdevops.shop:8080"
+        # shipping_endpoint  = "http://shipping-dev.azdevops.shop:8080"
+        # CATALOGUE_HOST     = "catalogue-dev.azdevops.shop"
         # CATALOGUE_PORT     = "8080"
-        # USER_HOST          = "user-dev.azdevopsb82.online"
+        # USER_HOST          = "user-dev.azdevops.shop"
         # USER_PORT          = "8080"
-        # CART_HOST          = "cart-dev.azdevopsb82.online"
+        # CART_HOST          = "cart-dev.azdevops.shop"
         # CART_PORT          = "8080"
-        # SHIPPING_HOST      = "shipping-dev.azdevopsb82.online"
+        # SHIPPING_HOST      = "shipping-dev.azdevops.shop"
         # SHIPPING_PORT      = "8080"
-        # PAYMENT_HOST       = "payment-dev.azdevopsb82.online"
+        # PAYMENT_HOST       = "payment-dev.azdevops.shop"
         # PAYMENT_PORT       = "8080"
 
       }
       # catalogue = {
-        # MONGO       = "true"
-        # MONGO_URL   = "mongodb://mongodb-dev.azdevopsb82.online:27017/catalogue"
-        # DB_TYPE     = "mongo"
-        # APP_GIT_URL = "https://github.com/roboshop-devops-project-v3/catalogue"
-        # DB_HOST     = "mongodb-dev.azdevopsb82.online"
-        # SCHEMA_FILE = "db/master-data.js"
-      }
+      #   MONGO       = "true"
+      #   MONGO_URL   = "mongodb://mongodb-dev.azdevops.shop:27017/catalogue"
+      #   DB_TYPE     = "mongo"
+      #   APP_GIT_URL = "https://github.com/roboshop-devops-project-v3/catalogue"
+      #   DB_HOST     = "mongodb-dev.azdevops.shop"
+      #   SCHEMA_FILE = "db/master-data.js"
+      # }
       # user = {
       #   MONGO     = "true"
-      #   REDIS_URL = "redis://redis-dev.azdevopsb82.online:6379"
-      #   MONGO_URL = "mongodb://mongodb-dev.azdevopsb82.online:27017/users"
+      #   REDIS_URL = "redis://redis-dev.azdevops.shop:6379"
+      #   MONGO_URL = "mongodb://mongodb-dev.azdevops.shop:27017/users"
       # }
       # cart = {
-      #   REDIS_HOST     = "redis-dev.azdevopsb82.online"
-      #   CATALOGUE_HOST = "catalogue-dev.azdevopsb82.online"
+      #   REDIS_HOST     = "redis-dev.azdevops.shop"
+      #   CATALOGUE_HOST = "catalogue-dev.azdevops.shop"
       #   CATALOGUE_PORT = "8080"
       # }
       # shipping = {
-      #   CART_ENDPOINT = "cart-dev.azdevopsb82.online:8080"
-      #   DB_HOST       = "mysql-dev.azdevopsb82.online"
+      #   CART_ENDPOINT = "cart-dev.azdevops.shop:8080"
+      #   DB_HOST       = "mysql-dev.azdevops.shop"
       #   DB_TYPE       = "mysql"
       #   APP_GIT_URL   = "https://github.com/roboshop-devops-project-v3/shipping"
-      #   DB_HOST       = "mysql-dev.azdevopsb82.online"
+      #   DB_HOST       = "mysql-dev.azdevops.shop"
       #   DB_USER       = "root"
       #   DB_PASS       = "RoboShop@1"
       # }
       # payment = {
-      #   CART_HOST = "cart-dev.azdevopsb82.online"
+      #   CART_HOST = "cart-dev.azdevops.shop"
       #   CART_PORT = "8080"
-      #   USER_HOST = "user-dev.azdevopsb82.online"
+      #   USER_HOST = "user-dev.azdevops.shop"
       #   USER_PORT = "8080"
-      #   AMQP_HOST = "rabbitmq-dev.azdevopsb82.online"
+      #   AMQP_HOST = "rabbitmq-dev.azdevops.shop"
       #   AMQP_USER = "roboshop"
       #   AMQP_PASS = "roboshop123"
       # }
@@ -75,6 +75,6 @@ variable "secrets" {
       #   AMQP_USER = "roboshop"
       #   AMQP_PASS = "roboshop123"
       # }
-    # }
-  # }
-# }
+    }
+  }
+}
