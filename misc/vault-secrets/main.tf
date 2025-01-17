@@ -9,7 +9,7 @@ variable "secrets" {
   default = {
     infra = {
       ssh = {
-        admin_username = "roboshop-ansible",
+        admin_username = "koushik",
         admin_password = "Koushik@123456"
       }
     }
