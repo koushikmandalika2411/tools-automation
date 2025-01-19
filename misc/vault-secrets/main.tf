@@ -16,10 +16,10 @@ variable "secrets" {
     roboshop-dev = {
       frontend = {
         catalogue_endpoint = "http://catalogue-dev.azdevops.shop:8080"
-        # cart_endpoint      = "http://cart-dev.azdevops.shop:8080"
-        # user_endpoint      = "http://user-dev.azdevops.shop:8080"
-        # payment_endpoint   = "http://payment-dev.azdevops.shop:8080"
-        # shipping_endpoint  = "http://shipping-dev.azdevops.shop:8080"
+        cart_endpoint      = "http://cart-dev.azdevops.shop:8080"
+        user_endpoint      = "http://user-dev.azdevops.shop:8080"
+        payment_endpoint   = "http://payment-dev.azdevops.shop:8080"
+        shipping_endpoint  = "http://shipping-dev.azdevops.shop:8080"
         # CATALOGUE_HOST     = "catalogue-dev.azdevops.shop"
         # CATALOGUE_PORT     = "8080"
         # USER_HOST          = "user-dev.azdevops.shop"
