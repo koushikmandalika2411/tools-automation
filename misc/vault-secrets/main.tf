@@ -32,14 +32,14 @@ variable "secrets" {
         # PAYMENT_PORT       = "8080"
 
       }
-      # catalogue = {
-      #   MONGO       = "true"
-      #   MONGO_URL   = "mongodb://mongodb-dev.azdevops.shop:27017/catalogue"
+      catalogue = {
+        MONGO       = "true"
+        MONGO_URL   = "mongodb://mongodb-dev.azdevops.shop:27017/catalogue"
       #   DB_TYPE     = "mongo"
       #   APP_GIT_URL = "https://github.com/roboshop-devops-project-v3/catalogue"
       #   DB_HOST     = "mongodb-dev.azdevops.shop"
       #   SCHEMA_FILE = "db/master-data.js"
-      # }
+      }
       # user = {
       #   MONGO     = "true"
       #   REDIS_URL = "redis://redis-dev.azdevops.shop:6379"
